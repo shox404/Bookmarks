@@ -1,0 +1,33 @@
+.mainBlock {
+    backdrop-filter: blur(30px);
+    min-height: 100dvh;
+}
+
+header {
+    gap: 20px;
+}
+
+.bookmarks {
+    min-height: calc(100dvh - 100px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: 150px;
+    text {
+        max-width: 80px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        text-wrap: nowrap;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-wrap: wrap;
+    }
+}

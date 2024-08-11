@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-image: url(../public/wallpaper.jpg);
+    background-size: cover;
+    min-height: 100dvh;
+}
